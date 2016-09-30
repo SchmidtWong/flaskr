@@ -1,0 +1,41 @@
+body            { background: #F5F5F5 }
+a, h1, h2       { color: #377BA8; }
+h1, h2          { font-family: 'Georgia', serif; margin: 0; }
+h1              { border-bottom: 2px solid #eee; }
+h2              { font-size: 1.2em; }
+
+.page           { margin: 2em auto; width: 35em; border: 5px solid #ccc;
+                  padding: 0.8em; background: white; }
+.entries        { list-style: none; margin: 0; padding: 0; }
+.entries li     { margin: 0.8em 1.2em; }
+.entries li h2  { margin-left: -1em; }
+.add-entry      { font-size: 0.9em; border-bottom: 1px solid #ccc; }
+.add-entry dl   { font-weight: bold; }
+.metanav        { text-align: right; font-size: 0.8em; padding: 0.3em;
+                  margin-bottom: 1em; background: #fafafa; }
+.flash          { background: #CEE5F5; padding: 0.5em;
+                  border: 1px solid #AACBE2; }
+.error          { background: #F0D6D6; padding: 0.5em; }
+body,div{padding:0; margin:0;}
+body,div,ul,li{padding:0; margin:0;}
+.css1{color:#F5F5F5;list-style:none;}
+.css2{margin:auto 10px;float:left;font-size:16px;}
+.css3 a:link {margin:auto 10px;float:left;font-size:16px;text-decoration:none;}
+.css3 a:visited {color:#F5F5F5;} 
+.css3 a:hover, 
+.css3 a:active {color:#FFF;}
+
+.class1{margin-top:0px; height:45px;width:100%;
+background:filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#086ED5',endColorstr='#055DB5');
+background-image: linear-gradient(to bottom, #086ED5 0%, #055DB5 100%);}
+
+.class2{height:45px;width:200px;line-height:45px;float:left;color:#FFF;text-align:center;font-size:25px;}
+
+.class3{margin-left:auto; margin-right:auto;;height:45px;width:400px;line-height:45px;}
+
+.class4{height:800px;width:800px;background-color:#FFF;margin-left:auto; margin-right:auto;}
+
+.class5{ position:fixed;bottom:0;height:30px;width:100%;background:filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#086ED5',endColorstr='#055DB5');
+background-image: linear-gradient(to bottom, #086ED5 0%, #055DB5 100%);text-align:center}
+
+.class6{float:left}
