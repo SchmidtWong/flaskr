@@ -20,10 +20,10 @@ body,div{padding:0; margin:0;}
 body,div,ul,li{padding:0; margin:0;}
 .css1{color:#F5F5F5;list-style:none;}
 .css2{margin:auto 10px;float:left;font-size:16px;}
-.css3 a:link {margin:auto 10px;float:left;font-size:16px;text-decoration:none;}
-.css3 a:visited {color:#F5F5F5;} 
-.css3 a:hover, 
-.css3 a:active {color:#FFF;}
+.css3 a:link {margin:auto 10px;float:left;font-size:16px;text-decoration:none;color:#F5F5F5;}
+.css3 a:visited {margin:auto 10px;float:left;font-size:16px;text-decoration:none;color:#F5F5F5;} 
+.css3 a:hover {margin:auto 10px;float:left;font-size:16px;text-decoration:none;color:#FFFFFF;}
+.css3 a:active,
 
 .class1{margin-top:0px; height:45px;width:100%;
 background:filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#086ED5',endColorstr='#055DB5');

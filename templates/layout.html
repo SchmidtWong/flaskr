@@ -4,7 +4,7 @@
 <body>
 <div class="class1" id="header">
 <div class="class2" id="title">
-Schmidt的小站
+Schmidt
 </div>
 
 <div class="class3" id="navibar">
@@ -16,9 +16,9 @@ Schmidt的小站
 <li class="css2"><div class="css3"><a href="http://www.bing.com">搜索</a></div></li>
 <li class="css2"><div>
   {% if not session.logged_in %}
-    <div class="css3"><a href="{{ url_for('login') }}">log in</a></div>
+    <div class="css3"><a href="{{ url_for('login') }}">登录</a></div>
   {% else %}
-    <div class="css3"><a href="{{ url_for('logout') }}">log out</a></div>
+    <div class="css3"><a href="{{ url_for('logout') }}">退出</a></div>
   {% endif %}
   </div></li>
 </ul>
